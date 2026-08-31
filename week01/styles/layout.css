@@ -1,0 +1,54 @@
+:root{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 3fr 2fr;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+header{
+    grid-column:1/5 ;
+    background-color: rgb(43, 43, 43);
+    
+}
+header p{
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+    
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+main{
+    color: #111;
+    grid-column:1/4 ;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+aside{
+    color: #111;
+    grid-column:4/5 ;
+    background-color: rgb(253, 208, 139);
+    padding: 1rem;
+}
+footer{
+    padding: 0.5rem;   
+    text-align: center;
+    grid-column:1/5 ;
+    background-color: rgb(43, 43, 43);
+}
