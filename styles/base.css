@@ -1,0 +1,43 @@
+:root{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Asap Sharp", sans-serif;
+    font-weight: 400;
+}
+
+nav{
+    background-color: rgb(7, 60, 77);
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style-type: none;
+    
+    
+}
+
+nav a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    border: 1px solid #fff;
+
+}
+
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav ul li{
+        flex: 1 1 100%;
+    }
+}
