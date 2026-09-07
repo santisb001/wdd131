@@ -7,6 +7,9 @@ body{
     font-family: "Asap Sharp", sans-serif;
     font-weight: 400;
 }
+header, footer{
+    text-align: center;
+}
 
 nav{
     background-color: rgb(7, 60, 77);
