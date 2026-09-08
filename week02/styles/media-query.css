@@ -1,0 +1,42 @@
+:root{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Asap Sharp", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+
+main,
+header,
+footer{
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgb(124, 158, 250);
+    border: 1px solid #bbb;
+}
+header, footer{
+    text-align: start;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+section{
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 500px){
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+    
