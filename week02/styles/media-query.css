@@ -15,7 +15,7 @@ header,
 footer{
     max-width: 640px;
     margin: 1rem auto;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: rgb(124, 158, 250);
     border: 1px solid #bbb;
 }
@@ -34,8 +34,13 @@ section{
 
 @media screen and (min-width: 500px){
     main{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    header{
+        background-color: black;
+        color: #fff;
     }
 }
 
