@@ -8,3 +8,5 @@ const deleteButton = document.createElement('button');
 li.textContent = input.value;
 deleteButton.textContent = '❌';
 
+li.append(deleteButton);
+list.append(li);
