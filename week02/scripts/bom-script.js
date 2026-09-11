@@ -10,3 +10,15 @@ deleteButton.textContent = '❌';
 
 li.append(deleteButton);
 list.append(li);
+
+button.addEventListener("click",function(){
+if (input.value.trim() !== ''){
+    const li = document.createElement('li');
+}
+});
+
+deleteButton.addEventListener("click", function(){
+    list.removeChild(li);
+    input.focus();
+});
+
