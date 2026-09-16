@@ -1,11 +1,14 @@
-:root{
+*{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
+}
+:root{
     --color1: rgb(206, 229, 255);
     --color2: rgb(150, 200, 250);
     --color3: rgb(100, 100, 100);
+    --italic: "Lato", sans-serif;
+    --italic-weight: 700;
 }
 
 body{
@@ -14,16 +17,21 @@ body{
     font-style: normal;
     background-color: #fff;
     color: var(--color2);
+    text-align: center;
 }
 /* mobile **************************/
-nav{
+header,footer{
     background-color: var(--color1);
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--color3);
 }
 
 nav ul{
     display: flex;
     flex-direction: column;
     list-style: none;
+    
     
 }
 nav li {
@@ -43,11 +51,33 @@ nav a:hover{
 main{
     margin: 0 auto;
     max-width: 900px;
-    text-align: center; 
+    
 }
 
 .container {
 	display: grid;
 	grid-template-columns: 1fr;
-    
+	grid-gap: 25px;
+	place-items: center;
 }
+
+img {
+	width: 100%;
+	height: auto;
+    border-radius: 15px 150px;
+}
+h1 {
+	font-size: 2.5rem;
+}
+figcaption {
+	font-size: smaller;
+    color: var(--color3);
+    font-family: var(--italic);
+    font-weight: var(--italic-weight);
+    font-style: italic;
+}
+.hover:hover {
+	box-shadow: 0 0 50px var(--color2);
+}
+
+
