@@ -69,8 +69,6 @@ nav a:hover{
 }
 
 
-
-
 main{
     margin: 0 auto;
     max-width: 900px;
@@ -89,13 +87,14 @@ img {
 	height: auto;
     border-radius: 15px 150px;
 }
-p {
+header p {
 	font-size: 2.5rem;
     font-weight: bolder;
 }
 h1{
     padding: 1rem;
 }
+
 figcaption {
 	font-size: smaller;
     color: var(--color3);
@@ -106,5 +105,6 @@ figcaption {
 .hover:hover {
 	box-shadow: 0 0 50px var(--color2);
 }
+
 
 

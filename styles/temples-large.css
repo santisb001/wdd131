@@ -24,17 +24,11 @@
         margin: 0 auto;
         max-width: 1200px;
     }
-    header, footer{
-        align-items: center;
-        background-color: var(--color1);
-        padding: 1rem;
-        margin: 1rem;
-        color: var(--color3);
-    }
-   header {
+
+    header {
         display: flex;
 		justify-content: space-between;
-   }
+    }
 	nav ul {
         justify-content: flex-end;
 		flex-direction: row;
