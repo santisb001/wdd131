@@ -2,5 +2,52 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+
+    --color1: rgb(206, 229, 255);
+    --color2: rgb(150, 200, 250);
+    --color3: rgb(100, 100, 100);
 }
 
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    color: var(--color2);
+}
+/* mobile **************************/
+nav{
+    background-color: var(--color1);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+nav li {
+    display: block;
+    
+}
+nav a{
+    text-decoration: none;
+    color: var(--color3);
+    font-size: larger;
+    font-weight: bolder;
+}
+nav a:hover{
+    color: var(--color2);
+}
+
+main{
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center; 
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+    
+}
