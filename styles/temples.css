@@ -21,7 +21,7 @@ body{
 }
 /* mobile **************************/
 header,footer{
-    background-color: var(--color);
+    background-color: var(--color1);
     padding: 1rem;
     margin: 1rem;
     color: var(--color3);
