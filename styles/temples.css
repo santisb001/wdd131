@@ -5,7 +5,7 @@
 }
 :root{
     --color1: rgb(206, 229, 255);
-    --color2: rgb(150, 200, 250);
+    --color2: rgb(100, 200, 250);
     --color3: rgb(100, 100, 100);
     --italic: "Lato", sans-serif;
     --italic-weight: 700;
@@ -21,7 +21,7 @@ body{
 }
 /* mobile **************************/
 header,footer{
-    background-color: var(--color1);
+    background-color: var(--color);
     padding: 1rem;
     margin: 1rem;
     color: var(--color3);
