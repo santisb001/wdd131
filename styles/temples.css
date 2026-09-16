@@ -66,8 +66,12 @@ img {
 	height: auto;
     border-radius: 15px 150px;
 }
-h1 {
+p {
 	font-size: 2.5rem;
+    font-weight: bolder;
+}
+h1{
+    padding: 1rem;
 }
 figcaption {
 	font-size: smaller;
