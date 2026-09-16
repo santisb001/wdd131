@@ -7,11 +7,10 @@
     --color1: rgb(206, 229, 255);
     --color2: rgb(0, 71, 107);
     --color3: rgb(100, 100, 100);
-    --italic: "Lato", sans-serif;
-    --italic-weight: 700;
+
 }
 body{
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #fff;
@@ -98,9 +97,7 @@ h1{
 figcaption {
 	font-size: smaller;
     color: var(--color3);
-    font-family: var(--italic);
-    font-weight: var(--italic-weight);
-    font-style: italic;
+    
 }
 .hover:hover {
 	box-shadow: 0 0 50px var(--color2);
